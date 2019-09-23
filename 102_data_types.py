@@ -38,3 +38,24 @@ print(my_variable2 is 12)
 print(my_variable1 is not 11)
 
 #Boolean values
+# defined by whether true or false
+print(type(True))
+print(0 == False)
+print(1 == True)
+
+# None
+print(None)
+print(type(None))
+print(bool(None))
+print(False == None)
+print(False == bool(None))
+
+# Logical AND & OR
+a =True
+b = False
+
+#using *and* both sides have to be true to result in true
+print( a and True)
+print((1 == 1) and True)
+print((1 == 1)and False)
+print(True or False) #prints true - or only requires one thing to be true to return true
