@@ -29,3 +29,9 @@ print('hello', box_variable) #overloading with two arguments
 print(type('hello'))
 print(type(14))
 print(type(14.0))
+
+#input()
+# prompts user for a response
+print('whats your name?')
+user_response = input()
+print(user_response)
