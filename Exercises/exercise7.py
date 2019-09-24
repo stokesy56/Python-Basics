@@ -13,4 +13,4 @@ elif film_rating == '15':
 elif film_rating == '18':
     print('No one younger than 18 may see a 18 film in a cinema')
 else:
-    print('This is not a valid film rating')
+    print('This is not a valid film rating, please enter Universal, PG, 12A, 15 or 18')
