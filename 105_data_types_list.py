@@ -47,4 +47,12 @@ my_tuple = (2, 'hello', 22, 'more values')
 print(my_tuple)
 print(type(my_tuple))
 print(my_tuple[0])
-my_tuple[0] = 3
+
+#range slicing
+print(crazy_exes[:1]) # 0 to 1, not inclusive
+print(crazy_exes[1:3])
+
+# Jumping/slicing
+example_list = [0,1,2,3,4,5]
+print(example_list[::2])
+print(example_list[1::2])
