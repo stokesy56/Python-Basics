@@ -14,6 +14,7 @@ while user_input != 'no':
             print(count)
     input_2 = input('Do you want to continue playing?').lower()
     print(input_2)
+    count = 0
     if input_2 != 'no':
         print('cool')
     else:
